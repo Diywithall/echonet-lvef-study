@@ -1,0 +1,22 @@
+# environments / deps
+backend/venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# data (7.5 GB, EchoNet-Dynamic: obtain from Stanford AIMI and place under dataset/)
+dataset/
+
+# duplicate clones of the official EchoNet-Dynamic repo (echonet_dynamic_repo/ is kept)
+echonet_dynamic_repo_v2/
+test_clone/
+dynamic-master/
+repo.zip
+
+# scratch
+temp_uploads/
+backend/temp_uploads/
+*.err
+*.log
+study/outputs/*.err
