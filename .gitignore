@@ -20,3 +20,6 @@ backend/temp_uploads/
 *.err
 *.log
 study/outputs/*.err
+
+echo*/.git_official_backup/
+echonet_dynamic_repo/.git_official_backup/
